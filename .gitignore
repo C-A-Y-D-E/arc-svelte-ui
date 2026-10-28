@@ -1,0 +1,8 @@
+node_modules
+.svelte-kit
+build
+.DS_Store
+.env
+# Built by scripts/build-registry.js
+static/r
+registry.json

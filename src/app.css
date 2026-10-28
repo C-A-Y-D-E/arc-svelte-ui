@@ -1,0 +1,23 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/geist';
+@import './lib/components/arc/theme.css';
+@import './lib/components/arc/foundation.css';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: var(--arc-background);
+	color: var(--arc-foreground);
+	font-family: var(--arc-font-body);
+	letter-spacing: var(--arc-tracking-body);
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: inherit;
+}

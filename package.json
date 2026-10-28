@@ -1,0 +1,35 @@
+{
+	"name": "arc-svelte",
+	"version": "0.1.0",
+	"description": "Arc's components (uiarc.dev), ported to Svelte 5. Unofficial; installs with the shadcn-svelte CLI.",
+	"private": true,
+	"license": "MIT",
+	"type": "module",
+	"dependencies": {
+		"@lucide/svelte": "^1.48.0",
+		"bits-ui": "^2.19.3",
+		"motion": "^13.4.6"
+	},
+	"devDependencies": {
+		"@fontsource-variable/geist": "^5.3.0",
+		"@fontsource-variable/inter": "^5.3.0",
+		"@sveltejs/adapter-auto": "^7.0.1",
+		"@sveltejs/kit": "^2.63.0",
+		"@sveltejs/vite-plugin-svelte": "^7.1.2",
+		"prettier": "^3.8.3",
+		"prettier-plugin-svelte": "^4.1.0",
+		"svelte": "^5.56.1",
+		"svelte-check": "^4.6.0",
+		"typescript": "^6.0.3",
+		"vite": "^8.0.16"
+	},
+	"packageManager": "pnpm@10.33.0",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "node scripts/build-registry.js && vite build",
+		"preview": "vite preview",
+		"registry": "node scripts/build-registry.js",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"format": "prettier --write ."
+	}
+}

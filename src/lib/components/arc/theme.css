@@ -1,0 +1,47 @@
+/*
+ * A neutral light and dark theme for the components: the shadcn-style colour variables
+ * foundation.css reads. Already have a shadcn theme? Keep yours and add the four it may lack:
+ * --highlight (selected and active states), --buy (success), --sell and --warning.
+ * Dark mode follows a `dark` class on any ancestor, as shadcn's does.
+ */
+:root {
+	--background: #ffffff;
+	--foreground: #0a0a0b;
+	--card: #ffffff;
+	--popover: #ffffff;
+	--muted: #f4f4f5;
+	--muted-foreground: #71717a;
+	--border: #e4e4e7;
+	--input: #d9d9de;
+	--primary: #5b5bd6;
+	--primary-foreground: #ffffff;
+	--highlight: #0b78e3;
+	--highlight-foreground: #ffffff;
+	--buy: #15803d;
+	--sell: #dc2626;
+	--warning: #d97706;
+	--destructive: #dc2626;
+	--ring: #5b5bd6;
+	color-scheme: light;
+}
+
+.dark {
+	--background: #0a0a0b;
+	--foreground: #f4f4f5;
+	--card: #121214;
+	--popover: #18181b;
+	--muted: #1f1f23;
+	--muted-foreground: #a1a1aa;
+	--border: #27272a;
+	--input: #3a3a40;
+	--primary: #8d8ef5;
+	--primary-foreground: #0a0a0b;
+	--highlight: #4aa3ff;
+	--highlight-foreground: #0a0a0b;
+	--buy: #22c55e;
+	--sell: #f87171;
+	--warning: #fbbf24;
+	--destructive: #f87171;
+	--ring: #8d8ef5;
+	color-scheme: dark;
+}
